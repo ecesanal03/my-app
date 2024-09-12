@@ -1,0 +1,110 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2f6791;
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin: 15px 0;
+}
+
+.sidebar-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #f4f4f9;
+}
+
+.profile-form {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form-title {
+  text-align: right;
+  color: #2f6791;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group.full-width {
+  flex: 2;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2f6791;
+  margin-bottom: 5px;
+}
+
+input, textarea, .react-select__control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #2f6791;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #245a7a;
+}
+
